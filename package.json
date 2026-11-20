@@ -1,0 +1,51 @@
+{
+  "name": "slash-web",
+  "private": false,
+  "version": "1.0.0",
+  "description": "A complete, fully interactive replica of the Slash banking dashboard demo (demo.slash.com/platinum) — 21 screens, the 23-step guided tour, and every business flow.",
+  "keywords": [
+    "slash",
+    "banking",
+    "fintech",
+    "dashboard",
+    "demo",
+    "replica",
+    "react",
+    "vite",
+    "spa"
+  ],
+  "license": "MIT",
+  "author": "slash-web contributors",
+  "homepage": "https://github.com/xieboss778/slash-web#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xieboss778/slash-web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xieboss778/slash-web/issues"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5173 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --port 4173 --strictPort",
+    "typecheck": "tsc --noEmit",
+    "deploy:pages": "vite build && wrangler pages deploy dist --project-name=slash-platinum-demo --branch=main"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.8"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
