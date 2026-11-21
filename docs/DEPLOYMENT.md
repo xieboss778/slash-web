@@ -2,6 +2,8 @@
 
 The app is a fully static SPA — any static host works. Cloudflare Pages is the primary target.
 
+**Live deployment:** https://slash-platinum-demo.pages.dev (project `slash-platinum-demo`, branch `main`, production environment)
+
 ## Cloudflare Pages (Direct Upload)
 
 ```bash

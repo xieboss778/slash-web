@@ -4,6 +4,8 @@ A complete, fully interactive replica of the **Slash** banking dashboard demo â€
 
 Not a screenshot gallery and not a static mock: the 23-step product tour, every navigation entry, and every business flow (approvals, cards, payments, spend controls, accounts, analytics, accounting) are implemented and behave the way the original does.
 
+**Live demo:** https://slash-platinum-demo.pages.dev
+
 ![Home](docs/screenshots/01-home.png)
 
 ---
